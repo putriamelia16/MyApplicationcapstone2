@@ -30,7 +30,7 @@ class ChatFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         chatViewModel.chatResponse.observe(viewLifecycleOwner) { response ->
-            binding.tvChatResponse.text = response
+            binding.tvChatResponse.text = response.toString()
         }
 
         chatViewModel.isLoading.observe(viewLifecycleOwner) { isLoading ->

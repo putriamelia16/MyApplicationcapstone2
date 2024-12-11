@@ -1,7 +1,7 @@
 package com.dicoding.myapplicationcapstone.data.api
 
-import com.dicoding.myapplicationcapstone.data.model.ChatRequest
-import com.dicoding.myapplicationcapstone.data.model.ChatResponse
+import com.dicoding.myapplicationcapstone.data.ChatContentResponse
+import com.dicoding.myapplicationcapstone.data.ChatRequest
 import retrofit2.Response
 import retrofit2.http.Body
 import retrofit2.http.Header
@@ -14,5 +14,5 @@ interface ApiService {
     suspend fun generateChatResponse(
         @Header("Authorization") authorization: String,
         @Body chatRequest: ChatRequest
-    ): Response<ChatResponse>
+    ): ChatContentResponse
 }

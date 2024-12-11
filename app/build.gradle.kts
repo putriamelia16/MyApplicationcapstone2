@@ -55,6 +55,7 @@ dependencies {
     implementation(libs.generativeai)
     implementation(libs.androidx.espresso.core)
     implementation(libs.androidx.wear.ongoing)
+    implementation(libs.play.services.drive)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

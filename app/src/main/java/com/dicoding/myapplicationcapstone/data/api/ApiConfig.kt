@@ -33,7 +33,6 @@ object ApiConfig {
 
     private val apiService: ApiService = retrofit.create(ApiService::class.java)
 
-    // Method to get the ApiService
     fun getApiService(): ApiService {
         return apiService
     }

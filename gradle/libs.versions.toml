@@ -15,6 +15,7 @@ navigationUiKtx = "2.8.4"
 navigationFragment = "2.8.4"
 generativeai = "0.9.0"
 wearOngoing = "1.0.0"
+playServicesDrive = "17.0.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -31,6 +32,7 @@ androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation
 androidx-navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment", version.ref = "navigationFragment" }
 generativeai = { group = "com.google.ai.client.generativeai", name = "generativeai", version.ref = "generativeai" }
 androidx-wear-ongoing = { group = "androidx.wear", name = "wear-ongoing", version.ref = "wearOngoing" }
+play-services-drive = { group = "com.google.android.gms", name = "play-services-drive", version.ref = "playServicesDrive" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
