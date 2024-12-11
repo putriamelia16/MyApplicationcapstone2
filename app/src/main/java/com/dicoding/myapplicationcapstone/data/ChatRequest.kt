@@ -5,16 +5,16 @@ import com.google.gson.annotations.SerializedName
 data class ChatRequest(
 
 	@field:SerializedName("safety_settings")
-	val safetySettings: SafetySettings? = null,  // nullable field, ensure it's correct
+	val safetySettings: SafetySettings? = null,
 
 	@field:SerializedName("contents")
-	val contents: Contents? = null,  // nullable field, ensure it's correct
+	val contents: Contents? = null,
 
 	@field:SerializedName("system_instruction")
-	val systemInstruction: SystemInstruction? = null,  // nullable field, ensure it's correct
+	val systemInstruction: SystemInstruction? = null,
 
 	@field:SerializedName("generation_config")
-	val generationConfig: GenerationConfig? = null  // nullable field, ensure it's correct
+	val generationConfig: GenerationConfig? = null
 )
 
 data class PartsItem(
